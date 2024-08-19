@@ -1,12 +1,12 @@
-import img1 from '../../public/BicepImages/incdb.webp';
-import img2 from '../../public/BicepImages/bc.png';
-import img3 from '../../public/BicepImages/pc.png';
-import img4 from '../../public/BicepImages/bc.png';
-import img5 from '../../public/BicepImages/cablec.jpg';
-import img6 from '../../public/BicepImages/hc.webp';
-import img7 from '../../public/BicepImages/cu.webp';
-import img8 from '../../public/BicepImages/concc.webp';
-import img9 from '../../public/BicepImages/sc.webp';
+import img1 from '../assets/BicepImages/incdb.webp'
+import img2 from '../assets/BicepImages/bc.png'
+import img3 from '../assets/BicepImages/pc.png'
+import img4 from '../assets/BicepImages/bc.png'
+import img5 from '../assets/BicepImages/cablec.jpg'
+import img6 from '../assets/BicepImages/hc.webp'
+import img7 from '../assets/BicepImages/cu.webp'
+import img8 from '../assets/BicepImages/concc.webp'
+import img9 from '../assets/BicepImages/sc.webp'
 
 const Workout_Bicep_Data = [
     {

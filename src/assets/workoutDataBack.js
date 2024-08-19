@@ -1,14 +1,14 @@
-import img1 from '../../public/BackImages/dl.jpg';
-import img2 from '../../public/BackImages/bentO.jpg';
-import img3 from '../../public/BackImages/pullU.jpg';
-import img4 from '../../public/BackImages/1row.png';
-import img5 from '../../public/BackImages/2row.webp';
-import img6 from '../../public/BackImages/latP.webp';
-import img7 from '../../public/BackImages/tbar.jpg';
-import img8 from '../../public/BackImages/srow.jpg';
-import img9 from '../../public/BackImages/saPd.webp';
-import img10 from '../../public/BackImages/fp.jpg';
-import img11 from '../../public/BackImages/bext.jpg';
+import img1 from '../assets/BackImages/dl.jpg'
+import img2 from '../assets/BackImages/bentO.jpg'
+import img3 from '../assets/BackImages/pullU.jpg'
+import img4 from '../assets/BackImages/1row.png'
+import img5 from '../assets/BackImages/2row.webp'
+import img6 from '../assets/BackImages/latP.webp'
+import img7 from '../assets/BackImages/tbar.jpg'
+import img8 from '../assets/BackImages/srow.jpg'
+import img9 from '../assets/BackImages/saPd.webp'
+import img10 from '../assets/BackImages/fp.jpg'
+import img11 from '../assets/BackImages/bext.jpg'
 
 const Workout_Back_Data = [
     {

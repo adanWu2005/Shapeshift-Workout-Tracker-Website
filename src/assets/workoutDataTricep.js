@@ -1,12 +1,12 @@
-import img1 from '../../public/TricepImages/skc.webp';
-import img2 from '../../public/TricepImages/dips.png';
-import img3 from '../../public/TricepImages/dpu.jpg';
-import img4 from '../../public/TricepImages/mtpd.png';
-import img5 from '../../public/TricepImages/odte.jpg';
-import img6 from '../../public/TricepImages/coe.png';
-import img7 from '../../public/TricepImages/cpd.jpg';
-import img8 from '../../public/TricepImages/satep.png';
-import img9 from '../../public/TricepImages/cgbp.jpg';
+import img1 from '../assets/TricepImages/skc.webp'
+import img2 from '../assets/TricepImages/dips.png'
+import img3 from '../assets/TricepImages/dpu.jpg'
+import img4 from '../assets/TricepImages/mtpd.png'
+import img5 from '../assets/TricepImages/odte.jpg'
+import img6 from '../assets/TricepImages/coe.png'
+import img7 from '../assets/TricepImages/cpd.jpg'
+import img8 from '../assets/TricepImages/satep.png'
+import img9 from '../assets/TricepImages/cgbp.jpg'
 
 const Workout_Tricep_Data = [
     {

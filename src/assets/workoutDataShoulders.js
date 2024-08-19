@@ -1,12 +1,12 @@
-import img1 from '../../public/ShoulderImages/fr.jpg';
-import img2 from '../../public/ShoulderImages/dsp.webp';
-import img3 from '../../public/ShoulderImages/bsp.jpg';
-import img4 from '../../public/ShoulderImages/incSp.webp';
-import img5 from '../../public/ShoulderImages/dlr.jpg';
-import img6 from '../../public/ShoulderImages/cLr.jpg';
-import img7 from '../../public/ShoulderImages/mLr.webp';
-import img8 from '../../public/ShoulderImages/bdf.webp';
-import img9 from '../../public/ShoulderImages/revPd.jpg';
+import img1 from '../assets/ShoulderImages/fr.jpg'
+import img2 from '../assets/ShoulderImages/dsp.webp'
+import img3 from '../assets/ShoulderImages/bsp.jpg'
+import img4 from '../assets/ShoulderImages/incSp.webp'
+import img5 from '../assets/ShoulderImages/dlr.jpg'
+import img6 from '../assets/ShoulderImages/cLr.jpg'
+import img7 from '../assets/ShoulderImages/mLr.webp'
+import img8 from '../assets/ShoulderImages/bdf.webp'
+import img9 from '../assets/ShoulderImages/revPd.jpg'
 
 const Workout_Shoulder_Data = [
     {

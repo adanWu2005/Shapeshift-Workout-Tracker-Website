@@ -1,7 +1,7 @@
-import img1 from '../../public/CardioImages/tm.jpg';
-import img2 from '../../public/CardioImages/sm.webp';
-import img3 from '../../public/CardioImages/bike.png';
-import img4 from '../../public/CardioImages/row.webp';
+import img1 from '../assets/CardioImages/tm.jpg'
+import img2 from '../assets/CardioImages/sm.webp'
+import img3 from '../assets/CardioImages/bike.png'
+import img4 from '../assets/CardioImages/row.webp'
 
 const Workout_Cardio_Data = [
     {
