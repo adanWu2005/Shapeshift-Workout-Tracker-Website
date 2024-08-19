@@ -1,0 +1,51 @@
+.delete-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center;
+  }
+
+  .delete-box{
+    border: 4px solid rgb(133, 60, 60);
+    padding: 70px 30px;
+    border-radius: 20px;
+  }
+  
+  .delete-buttons {
+    margin-top: 35px;
+  }
+  
+  .confirm-delete,
+  .cancel-delete {
+    background-color: rgb(133, 60, 60); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .cancel-delete {
+    background-color: #9e9e9e; 
+  }
+  
+  .confirm-delete:hover,
+  .cancel-delete:hover {
+    opacity: 0.8;
+  }
+  .delete-box h1{
+    font-size: 45px;
+    width: 850px;
+    margin-bottom: 20px;
+  }
+  .delete-box p{
+    font-size: 20px;
+  }
+
+  .delete-box button{
+    font-family: "Space Mono", monospace;
+  }
