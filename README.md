@@ -1,3 +1,2 @@
 # Shapeshift-Workout-Tracker-Website
 
-A full stack workout tracker that includes a JWT user authentication system gives the user complete control over their fitness journey. Users may securely join up, log in, and manage their workouts, recording them by kind, duration, and intensity. The project has a responsive UI developed with React, a strong backend powered by Node.js and Express.js, and MongoDB for efficient data storage. Users can create, change, and remove routines, establish fitness goals, and track their progress over time. The JWT-based authentication provides safe access to personal workout data, ensuring that the app is both functional and secure.
