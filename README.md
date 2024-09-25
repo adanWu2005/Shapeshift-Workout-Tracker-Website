@@ -34,10 +34,10 @@ This is the frontend of the Workout Tracker App, a full-stack application design
 - Express.js
 
 ### Database:
-- MongoDB (or another database of your choice)
+- MongoDB 
 
 ### Deployment:
-- Render.com (or another cloud platform)
+- Render.com 
 
 ## Getting Started
 
