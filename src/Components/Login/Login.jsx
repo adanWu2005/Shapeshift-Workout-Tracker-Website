@@ -30,8 +30,8 @@ const Login = () => {
 
         console.log('Response data:', res.data.token);
         if (res.data.token) {
-          sessionStorage.setItem('authToken', res.data.token); 
-          sessionStorage.setItem('username', values.username);
+          localStorage.setItem('authToken', res.data.token); 
+          localStorage.setItem('username', values.username);
           console.log('Login successful, navigating to home');
           navigate('/home');
         } else {
