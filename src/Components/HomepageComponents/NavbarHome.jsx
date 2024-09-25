@@ -8,15 +8,15 @@ const NavbarHome = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const storedUsername = sessionStorage.getItem('username');
+    const storedUsername = localStorage.getItem('username');
     if (storedUsername) {
       setUsername(storedUsername);
     }
   }, []);
 
   const handleLogout = () => {
-    sessionStorage.removeItem('authToken');
-    sessionStorage.removeItem('username');
+    localStorage.removeItem('authToken');
+    localStorage.removeItem('username');
     navigate('/login');
   };
 
