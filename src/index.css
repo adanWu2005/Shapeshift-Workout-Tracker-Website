@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    height: 100vh;
+    background: #11100e;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 363;
+    font-style: normal;
+}
+
