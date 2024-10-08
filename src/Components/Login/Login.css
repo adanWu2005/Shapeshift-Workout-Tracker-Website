@@ -1,0 +1,126 @@
+.login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: linear-gradient(127deg, #1d1c1c 0%, #000000 100%);
+}
+.loginBox{
+    background-color: rgb(39,39,39);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.7);
+    padding-bottom: 30px;
+}
+.loginBox h1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.loginUsername{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.loginPassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+}
+input {
+    border: none;
+    width: 60%;
+    height: 10px;
+    background-color: rgb(229, 226, 226);
+    font-family: "Outfit", sans-serif;
+    font-size: 28px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+.loginBtn{
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-bottom: 24px;
+    width: 150px;
+    font-family: "Outfit", sans-serif;
+    border: 1px solid rgb(77, 77, 77);
+    background-color: rgb(77, 77, 77);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.loginBtn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.linkException{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.loginException:hover{
+    transform: scale(1.01);
+    transition: 0.1s;
+}
+.backToHome{
+    margin-top: 15px;
+}
+.backToHomeLink{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);  
+}
+.backToHome:hover{
+    transform: scale(1.01);
+    transition: 0.1s;
+}
+
+@media (max-width: 480px) {
+    .loginBox {
+        width: 70%; 
+        padding: 20px; 
+    }
+
+    .loginBox h1 {
+        font-size: 32px; 
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+    }
+
+    .loginUsername,
+    .loginPassword {
+        margin-bottom: 15px; 
+    }
+
+    input {
+        width: 90%; 
+        height: 40px; 
+        font-size: 18px; 
+        padding: 5px; 
+    }
+
+    .loginBtn {
+        width: 80%;
+        font-size: 14px; 
+        padding: 10px; 
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .linkException{
+        font-size: 12px;
+        width: 80%;
+    }
+    .backToHomeLink{
+        margin-top: 0px;
+        font-size: 12px;
+    }
+}
